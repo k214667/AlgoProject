@@ -4,7 +4,7 @@ const path = require("path");
 const closestPair = require("../algorithms/closestPair.js");
 const karatsuba = require("../algorithms/karatsuba.js");
 
-const datasetsDir = path.join(__dirname, "../../datasets");
+const datasetsDir = path.join(__dirname, "../../../datasets");
 
 
 async function runHandler(type, filename) {
